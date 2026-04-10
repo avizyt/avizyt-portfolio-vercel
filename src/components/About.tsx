@@ -17,7 +17,7 @@ const About: React.FC = () => {
         </div>
         <div className="mt-8">
             <a 
-              href="assets/Avijit_Biswas_AIML.pdf" 
+              href="public/cv/Avijit_Biswas_AIML.pdf" 
               target="_blank"
               className="inline-block px-8 py-2 border-2 border-[#c778dd] text-white hover:bg-[#c778dd]/10 transition-colors font-medium"
             >
@@ -28,7 +28,7 @@ const About: React.FC = () => {
       
       <div className="flex-[2] relative hidden md:block">
         <div className="relative z-10 w-full max-w-xs mx-auto">
-             <img src="assets/my image.jpg" alt="Avijit Biswas" className="w-full h-auto border-b border-[#c778dd] grayscale hover:grayscale-0 transition-all duration-500" />
+             <img src="public/image/personal.png" alt="Avijit Biswas" className="w-full h-auto border-b border-[#c778dd] grayscale hover:grayscale-0 transition-all duration-500" />
         </div>
         
         {/* Decorative dots from Figma */}

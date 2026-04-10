@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       
       <div className="flex-1 relative">
         <div className="relative z-10 mx-auto w-full max-w-sm">
-           <img src="assets/my image.jpg" alt="Avijit" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500 border-b-2 border-[#c778dd]" />
+           <img src="public/image/personal.png" alt="Avijit" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500 border-b-2 border-[#c778dd]" />
         </div>
         
         {/* Decorative elements */}

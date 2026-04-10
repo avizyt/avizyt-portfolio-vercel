@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="128" height="128">
+  <defs>
+    <style>
+      .bg { fill: #fbb041; }
+      .face-skin { fill: #fffde0; }
+      .stipple { fill: #000; }
+      .line-work { fill: none; stroke: #000; stroke-width: 1.5; stroke-linecap: round; }
+      .thick-line { stroke-width: 2.5; }
+      .collar-fill { fill: #fffde0; stroke: #000; stroke-width: 1.5; }
+      .collar-cross { stroke: #000; stroke-width: 0.5; }
+      .scribble { fill: none; stroke: #000; stroke-width: 0.8; stroke-opacity: 0.7; }
+    </style>
+  </defs>
+  <rect class="bg" width="500" height="500" rx="250" ry="250"/>
+  
+  <g transform="translate(100, 50)">
+    <path class="scribble" d="[M x y c c c ... complex, chaotic paths for mass hair and background scribble]"/>
+    
+    <path class="face-skin" d="M 120 150 Q 150 130 180 150 Q 210 200 180 350 Q 150 370 120 350 Q 90 200 120 150 Z"/>
+    
+    <path class="thick-line" d="M 100 170 Q 120 160 140 170 Q 160 160 180 170"/> <path class="line-work" d="M 100 170 A 20 20 0 0 0 140 170 Z"/> <path class="line-work" d="M 140 170 A 20 20 0 0 0 180 170 Z"/> <circle cx="115" cy="180" r="5"/> <circle cx="165" cy="180" r="5"/> <path class="stipple" d="[M 115 180 l 0.5 0 M 116 181 l 0.5 0 ...]"/> <path class="line-work" d="M 130 190 Q 140 230 150 190"/> <path class="line-work thick-line" d="M 125 240 Q 140 255 155 240"/> <path class="stipple" d="[M 130 220 l 0.5 0 ...]"/> <path class="line-work" d="M 105 260 Q 140 255 175 260"/> <path class="stipple" d="[M 110 265 l 0.5 0 ...]"/> <path class="line-work" d="M 115 285 Q 140 300 165 285"/> <path class="scribble" d="[M 120 350 c c c ... complex scribble patterns for beard]"/>
+
+    <path class="collar-fill" d="M 80 330 Q 140 360 200 330 l -10 100 Q 140 450 90 430 Z"/>
+    <circle cx="140" cy="350" r="10" stroke="black" fill="white"/> <path class="collar-cross" d="M 90 340 L 190 420 M 100 330 L 200 410 ... "/> <path class="scribble" d="[M 80 330 c c c ... complex collar scribble]"/>
+  </g>
+</svg>
