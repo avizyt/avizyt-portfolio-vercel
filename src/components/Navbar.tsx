@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="sticky top-0 z-50 bg-[#282c33] border-b-0 py-6 px-4 md:px-12 lg:px-24 flex justify-between items-center">
       <div className="flex items-center gap-4 font-bold text-white text-xl z-50">
-        <img src="public/image/personal.png" alt="Logo" className="w-8 h-8 rounded-full border border-[#c778dd]" />
+        <img src="/image/personal.png" alt="Logo" className="w-8 h-8 rounded-full border border-[#c778dd]" />
         <div className="flex items-center gap-2">
             <span className="text-[#c7ba03]">//</span>
             <span>Avijit Biswas</span>

@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="space-y-4">
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2 font-bold text-white text-xl">
-              <img src="public/image/personal.png" alt="Logo" className="w-6 h-6 rounded-full grayscale" />
+              <img src="/image/personal.png" alt="Logo" className="w-6 h-6 rounded-full grayscale" />
               <div className="flex items-center gap-2">
                 <span className="text-[#c7ba03]">//</span>
                 <span>Avijit Biswas</span>
