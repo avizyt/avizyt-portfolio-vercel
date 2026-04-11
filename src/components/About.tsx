@@ -9,7 +9,7 @@ const About: React.FC = () => {
         <div className="text-[#abb2bf] space-y-6 text-lg">
           <p>Hello, i’m Avijit!</p>
           <p>
-            I’m a self-taught AI Developer based in Bangalore, India. I can develop production-grade AI solutions from scratch and integrate them into modern user-friendly web experiences.
+            I’m a experienced AI Developer based in Bangalore, India. I can develop Agentic AI solutions from scratch and integrate them into modern user-friendly web experiences or CLI.
           </p>
           <p>
             Transforming complex technical requirements into scalable AI systems has been my passion for over 3 years. I have been helping various clients to establish their AI presence. I always strive to learn about the newest technologies and frameworks.
